@@ -1,0 +1,48 @@
+/* Logic and Looping CSS file */
+
+.page-head {
+  padding-left: 1.5em;
+  color: red
+}
+.profiles {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  
+  .profiles h1 {
+    color: red
+  }
+  .profile {
+    border: 1px solid #666;
+    padding: 1em;
+    text-align: center;
+    margin: 0 0.5em;
+  }
+  
+  .profile h4 {
+    text-shadow: 0.1em 0.1em #ccc;
+    text-align: center;
+  }
+  
+  .profile img {
+      width: 200px;
+  }
+  .alert {
+    background: tomato;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid red;
+  }
+  
+  .profile ul {
+      text-align: left;
+      list-style-position: inside;
+      padding-left: 4em;
+      /* display: inline-block; */
+  }
+
+  /* .profile ul li {
+    padding-left: 0px;
+  } */
